@@ -13,7 +13,7 @@ namespace PokedexApi.Core.Models
         /// <summary>
         ///     Name of the <see cref="Pokemon"/>.
         /// </summary>
-        public int Name { get; set; }
+        public string Name { get; set; }
 
         /// <summary>
         ///     Type(s) of the <see cref="Pokemon"/>.
